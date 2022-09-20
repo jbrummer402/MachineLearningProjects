@@ -1,4 +1,7 @@
-import 
+from Camera.cam import Cam
+
+
 
 if __name__ == '__main__':
-    print("running camera")
+    with Cam() as cam:
+        print("Success")
